@@ -87,7 +87,7 @@ const OfferAutoParser = () => {
       if (data.status === "duplicate") {
         alert("⚠️ Duplicate voucher code. Not saved.");
       } else if (response.ok) {
-        alert("✅ Data saved to MongoDB!");
+        alert("✅ Data saved!");
       } else {
         alert("❌ Failed to save data.");
       }
